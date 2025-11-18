@@ -1,0 +1,266 @@
+[
+    {
+        "title": "Friend Zone (Pagafantas)",
+        "rating": 2,
+        "director": {
+            "_id": {
+                "$oid": "64c5315da6f2a946d0614cda"
+            },
+            "firstName": "Olga",
+            "lastName": "Tasseler"
+        }
+    },
+    {
+        "title": "Casanova",
+        "rating": 6,
+        "director": {
+            "_id": {
+                "$oid": "64c5315da6f2a946d0614cde"
+            },
+            "firstName": "Marin",
+            "lastName": "Gotecliffe"
+        }
+    },
+    {
+        "title": "Extreme Ops",
+        "rating": 2,
+        "director": {
+            "_id": {
+                "$oid": "64c5315da6f2a946d0614cdd"
+            },
+            "firstName": "Kordula",
+            "lastName": "Prestwich"
+        }
+    },
+    {
+        "title": "Goodbye First Love",
+        "rating": 7,
+        "director": {
+            "_id": {
+                "$oid": "64c5315da6f2a946d0614ce0"
+            },
+            "firstName": "Randolph",
+            "lastName": "Oxterby"
+        }
+    },
+    {
+        "title": "Woman's Face, A (En kvinnas ansikte) ",
+        "rating": 8,
+        "director": {
+            "_id": {
+                "$oid": "64c5315da6f2a946d0614cdd"
+            },
+            "firstName": "Kordula",
+            "lastName": "Prestwich"
+        }
+    },
+    {
+        "title": "French Film",
+        "rating": 9,
+        "director": {
+            "_id": {
+                "$oid": "64c5315da6f2a946d0614cda"
+            },
+            "firstName": "Olga",
+            "lastName": "Tasseler"
+        }
+    },
+    {
+        "title": "Hitting Home",
+        "rating": 7,
+        "director": {
+            "_id": {
+                "$oid": "64c5315da6f2a946d0614cdd"
+            },
+            "firstName": "Kordula",
+            "lastName": "Prestwich"
+        }
+    },
+    {
+        "title": "Contracted",
+        "rating": 7,
+        "director": {
+            "_id": {
+                "$oid": "64c5315da6f2a946d0614cd9"
+            },
+            "firstName": "Trude",
+            "lastName": "Brewitt"
+        }
+    },
+    {
+        "title": "Room with a View, A",
+        "rating": 3,
+        "director": {
+            "_id": {
+                "$oid": "64c5315da6f2a946d0614ce0"
+            },
+            "firstName": "Randolph",
+            "lastName": "Oxterby"
+        }
+    },
+    {
+        "title": "40 Pounds of Trouble",
+        "rating": 3,
+        "director": {
+            "_id": {
+                "$oid": "64c5315da6f2a946d0614cde"
+            },
+            "firstName": "Marin",
+            "lastName": "Gotecliffe"
+        }
+    },
+    {
+        "title": "Easy A",
+        "rating": 4,
+        "director": {
+            "_id": {
+                "$oid": "64c5315da6f2a946d0614cd9"
+            },
+            "firstName": "Trude",
+            "lastName": "Brewitt"
+        }
+    },
+    {
+        "title": "Grouse",
+        "rating": 8,
+        "director": {
+            "_id": {
+                "$oid": "64c5315da6f2a946d0614cda"
+            },
+            "firstName": "Olga",
+            "lastName": "Tasseler"
+        }
+    },
+    {
+        "title": "Mind Game",
+        "rating": 4,
+        "director": {
+            "_id": {
+                "$oid": "64c5315da6f2a946d0614cd9"
+            },
+            "firstName": "Trude",
+            "lastName": "Brewitt"
+        }
+    },
+    {
+        "title": "Bye Bye Monkey (Ciao maschio)",
+        "rating": 9,
+        "director": {
+            "_id": {
+                "$oid": "64c5315da6f2a946d0614ce0"
+            },
+            "firstName": "Randolph",
+            "lastName": "Oxterby"
+        }
+    },
+    {
+        "title": "Three on a Weekend",
+        "rating": 2,
+        "director": {
+            "_id": {
+                "$oid": "64c5315da6f2a946d0614cde"
+            },
+            "firstName": "Marin",
+            "lastName": "Gotecliffe"
+        }
+    },
+    {
+        "title": "Legend of Hell House, The",
+        "rating": 8,
+        "director": {
+            "_id": {
+                "$oid": "64c5315da6f2a946d0614ce0"
+            },
+            "firstName": "Randolph",
+            "lastName": "Oxterby"
+        }
+    },
+    {
+        "title": "Teeth",
+        "rating": 9,
+        "director": {
+            "_id": {
+                "$oid": "64c5315da6f2a946d0614cda"
+            },
+            "firstName": "Olga",
+            "lastName": "Tasseler"
+        }
+    },
+    {
+        "title": "Kull the Conqueror",
+        "rating": 3,
+        "director": {
+            "_id": {
+                "$oid": "64c5315da6f2a946d0614cdd"
+            },
+            "firstName": "Kordula",
+            "lastName": "Prestwich"
+        }
+    },
+    {
+        "title": "Seconds Apart ",
+        "rating": 9,
+        "director": {
+            "_id": {
+                "$oid": "64c5315da6f2a946d0614cde"
+            },
+            "firstName": "Marin",
+            "lastName": "Gotecliffe"
+        }
+    },
+    {
+        "title": "Brain, The",
+        "rating": 5,
+        "director": {
+            "_id": {
+                "$oid": "64c5315da6f2a946d0614cde"
+            },
+            "firstName": "Marin",
+            "lastName": "Gotecliffe"
+        }
+    },
+    {
+        "title": "All Fall Down",
+        "rating": 8,
+        "director": {
+            "_id": {
+                "$oid": "64c5315da6f2a946d0614cdd"
+            },
+            "firstName": "Kordula",
+            "lastName": "Prestwich"
+        }
+    },
+    {
+        "title": "Bopha!",
+        "rating": 4,
+        "director": {
+            "_id": {
+                "$oid": "64c5315da6f2a946d0614cda"
+            },
+            "firstName": "Olga",
+            "lastName": "Tasseler"
+        }
+    },
+    {
+        "title": "Avengers: Infinity War",
+        "rating": 10,
+        "director": {
+            "_id": {
+                "$oid": "64c5315da6f2a946d0614cde"
+            },
+            "firstName": "Marin",
+            "lastName": "Gotecliffe"
+        }
+    },
+    {
+        "title": "Avengers: Endgame",
+        "rating": 9,
+        "director": {
+            "_id": {
+                "$oid": "64c5315da6f2a946d0614cda"
+            },
+            "firstName": "Olga",
+            "lastName": "Tasseler"
+        }
+    }
+]

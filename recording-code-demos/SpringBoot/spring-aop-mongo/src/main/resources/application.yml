@@ -1,0 +1,21 @@
+# telling Spring where to get the data from
+spring:
+    data:
+        mongodb:
+            uri: mongodb://areeves8:password1234@docdb-areees-movies-demo.cluster-c4eqo06kg56i.us-east-1.docdb.amazonaws.com:27017/?tls=true&replicaSet=rs0&readPreference=secondaryPreferred&retryWrites=false
+            database: movies
+    # enabling colors in the terminal
+    output:
+        ansi:
+            enabled: ALWAYS                             
+javax: 
+    net:
+        ssl:
+            trustStore: /tmp/certs/rds-truststore.jks
+            trustStorePassword: password1234
+
+# sets your logging level - default is INFO
+logging:
+    level:
+        com:
+            skillstorm: debug               # sets the logging level for the entire package

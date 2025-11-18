@@ -1,0 +1,9 @@
+spring:
+    datasource:
+        url: jdbc:postgresql://localhost:5432/spring_security_users            
+        username: postgres                         
+        password: password  
+
+    output:
+        ansi:
+            enabled: ALWAYS

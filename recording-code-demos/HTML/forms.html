@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <style>
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Form Demo</h1>
+    </header>
+    <main>
+        <p>Please fill out this form!</p>
+        <form>
+            <!-- labels, inputs, and buttons.-->
+
+            <label for="fName">First Name:</label>
+            <!-- input fields are used to input different types of data. 
+                we can use the type attribute to tell it what type of input it is-->
+            <input id="fName" type="text" placeholder="John" name="firstName"/>
+
+            <label for="lName">Last Name:</label>
+            <input id="lName" type-="text" placeholder="Doe" name="lastName"/>
+
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input id="email" type="email"/>
+            </div>
+            <div class="form-group">
+                <label for="lang">Language:</label>
+                <input id="lang" type="text"/>
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input id="password" type="text" minlength="8" required/>
+            </div>
+            <div>
+                <label for="">Age:</label>
+                <input type="number" min="18" max="100" step="0.5"/>
+            </div>
+            <div>
+                <label>Today's Date:</label>
+                <input type="date"/>
+            </div>
+
+            <input type="submit" value="submit"/>
+            <button type="submit">Submit</button>
+        </form>
+
+        <h1>Checkboxes</h1>
+        <form>
+            <h2>What types of colors do you like?</h2>
+            <input type="checkbox" id="aquaId" value="aqua"/>
+            <label for="aquaId">Aqua</label>
+            <br/>
+            <input type="checkbox" id="greenId" value="green"/>
+            <label for="greenId">Green</label>
+            <br/>
+            <input type="checkbox" id="pinkId" value="pink"/>
+            <label for="pinkId">Pink</label>
+            <br/>
+            <input type="checkbox" id="orangeId" value="orange"/>
+            <label for="orangeId">Orange</label>
+            <input type="submit" value="submit"/>
+        </form>
+
+        <h1>Radio Buttons</h1>
+        <form>
+            <h2>What is your favorite dessert?</h2>
+            <input type="radio" value="applePie"/>
+            <label>Apple Pie</label>
+            <br/>
+            <input type="radio" value="cheesecake"/>
+            <label>Cheesecake</label>
+            <br/>
+            <input type="radio" value="icecream"/>
+            <label>Ice Cream</label>
+        </form>
+    </main>
+    
+</body>
+</html>

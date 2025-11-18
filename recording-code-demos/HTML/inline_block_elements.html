@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .inline {
+            display: inline;
+            color:pink;
+            border: 2px solid purple;
+            /*height: 30px; wont make a difference*/
+            
+        }
+
+        .block {
+            display:block;
+            color: green;
+            border: 2px solid orange;
+        }
+        .inline-block {
+            display: inline-block;
+            color: red;
+            border: 2px dotted black;
+            height: 60px;
+        }
+        /* toggle on and off*/
+        .none {
+            display:none;
+            color:aqua;
+            border: 2px solid yellow;
+        }
+    </style>
+</head>
+<body>
+    <h1>Display Inline</h1>
+    <p>Lacinia at quis risus sed vulputate odio ut. Sit amet tellus cras adipiscing enim eu. 
+        Ipsum suspendisse ultrices gravida dictum fusce.<span class="inline"> Cursus metus aliquam eleifend mi in nulla posuere sollicitudin.
+            Lacinia at quis risus sed vulputate odio ut. Sit amet tellus cras adipiscing enim eu. </span> 
+        Ipsum suspendisse ultrices gravida dictum fusce. Cursus metus aliquam eleifend mi in nulla posuere sollicitudin.  </p>
+
+    <h1>Display Block</h1>
+    <p>Amet mauris commodo quis imperdiet massa tincidunt nunc pulvinar. Lacus vel facilisis volutpat est velit egestas dui id ornare. 
+        Rhoncus est pellentesque elit ullamcorper dignissim cras tincidunt. <p class="block">Id cursus metus aliquam eleifend. </p>
+        Lacus laoreet non curabitur gravida arcu ac. Orci dapibus ultrices in iaculis nunc sed augue lacus. Nunc sed augue lacus viverra vitae congue eu.</p>
+
+    <h1>Inline-Block</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+        Convallis convallis tellus id interdum velit. Augue eget arcu dictum varius duis. Lorem ipsum dolor sit amet consectetur adipiscing elit ut.
+        <span class="inline-block">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span> 
+        Convallis convallis tellus id interdum velit. Augue eget arcu dictum varius duis. Lorem ipsum dolor sit amet consectetur adipiscing elit ut.</p>
+
+    <h1>Display None</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+        Convallis convallis tellus id interdum velit. Augue eget arcu dictum varius duis. Lorem ipsum dolor sit amet consectetur adipiscing elit ut.
+        <span class="none">NOW YOU SEE ME</span> 
+        Convallis convallis tellus id interdum velit. Augue eget arcu dictum varius duis. Lorem ipsum dolor sit amet consectetur adipiscing elit ut.</p>
+</body>
+</html>

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creating Tables</title>
+
+    <style>
+        table, th, td {
+            border: 2px solid black;
+            border-collapse: collapse;
+        }
+
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <!-- row 1 -->
+            <tr>
+                <th></th>
+                <th>Saturday</th>
+                <th>Sunday</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- row 2 -->
+            <tr>
+                <th>Morning</th>
+                <td rowspan="2">Chores</td>
+                <td rowspan="3">Relax</td>
+            </tr>
+            <tr>
+                <!-- row 3 -->
+                <th>Afternoon</th>
+            </tr>
+            <tr>
+                <!-- row 4 -->
+                <th>Evening</th>
+                <td>Dinner</td>
+            </tr>
+        </tbody>
+    </table>
+    <br/><br/>
+
+
+
+
+    <table>
+        <tr>
+            <!-- row 1 -->
+            <th></th>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+            <th>Saturday</th>
+            <th>Sunday</th>
+        </tr>
+        <tr>
+            <!-- rowspan is merging cells together, will span 2 rows-->
+            <!-- colspan is merginf cells together, will span 5 columns-->
+            <th>Morning</th>
+            <td rowspan="2" colspan="5">Work</td>
+            <td rowspan="2" colspan="2">Relaxation</td>
+        </tr>
+        <tr>
+            <th>Afternoon</th>
+        </tr>
+        <tr>
+            <th>Evening</th>
+            <td colspan="7">Dinner</td>
+        </tr>
+    </table>
+    <br/><br/>
+
+
+
+
+    <table>
+        <thead>
+            <tr>
+                <th></th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+                <th>Saturday</th>
+                <th>Sunday</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>Morning</th>
+                <td rowspan="2">Work</td>
+                <td>Work</td>
+                <td>Work</td>
+                <td>Work</td>
+                <td>Work</td>
+                <td>Chores</td>
+                <td>Relax</td>
+            </tr>
+            <tr>
+                <th>Afternoon</th>
+                <td>Work</td>
+                <td>Work</td>
+                <td>Work</td>
+                <td>Work</td>
+                <td>Babysitting</td>
+                <td>Relax</td>
+            </tr>
+            <tr>
+                <th>Evening</th>
+                <td rowspan="7">Dinner</td>
+                <td>Dinner</td>
+                <td>Dinner</td>
+                <td>Dinner</td>
+                <td>Dinner</td>
+                <td>Dinner</td>
+                <td>Dinner</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>

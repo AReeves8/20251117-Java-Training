@@ -1,0 +1,30 @@
+# make sure to configure port
+server:
+    port: 8083
+
+# naming application
+spring:
+    application:
+        name: rabbitmq-publisher            # used as the id in the gateway routes
+
+    # configuring RabbitMQ
+    rabbitmq:
+        host: localhost
+        port: 5672                          # default port for RabbitMQ
+
+# configure where the discovery client is so our app can auto-register itself
+eureka:
+    client:
+        service-url:
+            defaultZone: http://localhost:8761/eureka
+
+    # configuring how long between each "heartbeat" request
+    instance:
+        leaseRenewalIntervalInSeconds: 30
+
+# creating the rabbit mq fanout exchange
+exchanges:
+    fanout: payment
+
+# creating the routing key for the exchange
+routing-key: key1234

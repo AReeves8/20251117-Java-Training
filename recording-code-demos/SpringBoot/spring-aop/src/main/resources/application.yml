@@ -1,0 +1,24 @@
+# Spring where to get the data from
+spring:
+    datasource:
+        url: jdbc:h2:mem:moviesdb           # name your db - if you want to peresits data between runs you can specify a file path: jdbc:h2:file:[path]
+        username: sa                        # this is default username for h2
+        password:                           # optional for h2
+        driverClassName: org.h2.Driver      # jdbc uses this to connect to database
+        #url: jdbc:postgresql://localhost:5432/movies
+        #username: postgres
+        #password: password
+    jpa:
+        database-platform: org.hibernate.dialect.H2Dialect  # tells spring data jpa that we're using h2 database 
+        defer-datasource-initialization: true               # tells JPA to wait until hibernate has initialized before loading the data to h2
+    output:
+        ansi:
+            enabled: ALWAYS
+server:
+    port: 8282                              # changes port number for server
+
+# sets your logging level - default is INFO
+logging:
+    level:
+        com:
+            skillstorm: debug               # sets the logging level for the entire package

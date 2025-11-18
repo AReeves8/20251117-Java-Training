@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	
+	
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>2.7.13</version>
+		<relativePath/> <!-- lookup parent from repository -->
+	</parent>
+
+	<!-- project coordinates -->
+	<groupId>com.skillstorm</groupId>
+	<artifactId>hello-spring-boot</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>hello-spring-boot</name>
+	<description>Demo project for Spring Boot</description>
+	
+	
+	<properties>
+		<java.version>1.8</java.version>	<!-- what version of java to use -->
+	</properties>
+
+
+	<dependencies>
+
+		<!-- Spring Boot Starter dependencies are what provide the opinionated configurations -->
+
+		<!-- this is what starts up your spring boot project -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter</artifactId>
+		</dependency>
+
+		<!-- spring boot starter, but for tests -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+
+	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+
+				<!-- 
+					allow maven to package your spring boot projects 
+						maven will package into a fat JAR
+							a fat JAR includes everything needed to run your project - all code, tools, and dependencies
+				
+					if you package as a WAR, you don't need this plugin. 
+						in general you only package as a war when you have some existing server you would deploy your project to.
+				-->
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+		</plugins>
+	</build>
+
+</project>

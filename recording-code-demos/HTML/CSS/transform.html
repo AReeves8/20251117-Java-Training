@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transform</title>
+    <style>
+
+        #container {
+            min-height: 80vh;
+            border: 2px solid black;
+            margin: 120px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .box {
+            margin: 50px;
+        }
+
+        /* this is how we create an animation. create a @keyframes like below, naming your animation (ie myAnimation)
+        and include timing and transition */
+
+        #box1 {
+            animation: myAnimation 3s ease;
+        }
+
+        #box2 {
+            animation: myAnimation 3s ease;
+            box-shadow: 10px 5px 20px 15px blue;;
+        }
+
+        #box3 {
+            /* you can also animate with the transform property */
+            transform: rotate(7deg);
+            /* transform: scale(1.5,1);*/
+            animation: myAnimation 3s ease;
+        }
+
+
+        @keyframes myAnimation {
+            0% {
+                transform: rotate(45deg)
+            }
+            50% {
+                transform: rotate(500deg);
+                border-radius:50%;
+            }
+            100% {
+                transform: rotate(0deg);
+                box-shadow: 10px 10px pink;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <img class="box" id="box1" src="https://placekitten.com/200/200" alt="kitten image"/>
+        <img class="box" id="box2" src="https://placekitten.com/200/200" alt="kitten image"/>
+        <img class="box" id="box3" src="https://placekitten.com/200/200" alt="kitten image"/>
+    </div>
+    
+</body>
+</html>

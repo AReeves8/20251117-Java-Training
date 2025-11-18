@@ -1,0 +1,15 @@
+
+spring:
+    output:
+        ansi:
+            enabled: ALWAYS
+
+    security:
+        oauth2:
+            client:
+                # default URI is /login/oauth2/code/<registrationId>
+                registration:
+                    google:     # this is the registrastionId
+                        clientId: 158987948047-86icu1sldil2dinb3cobb72p5jre5tes.apps.googleusercontent.com
+                        clientSecret: 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
+

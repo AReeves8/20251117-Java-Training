@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ways to Apply CSS</title>
+    <style>
+        /*
+            CSS can be applied in 3 different ways:
+                1. Inline - an attribute on your element
+                2. Internal Styling - in the style element
+                3. External Styling - using a stylingsheet, link to a CSS file
+        */
+
+        /* 
+            A rule set contains multiple declarations seperated by semicolons
+        */
+        h2 {
+            color: orange;
+            font-size: 24px;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <header>
+        <h1>The Different ways to apply CSS</h1>
+    </header>
+    <main>
+        <!-- Inline styling: add attribute to the element-->
+        <p style="color: red; font-size: 36px">Inline Styling Example</p>
+
+        <!-- Internal Styling: rules are specified in th head inside of the style element-->
+        <h2>Internal Styling Example</h2>
+
+        <!-- External Styling: refers to a an external stylingsheet -->
+        <h3>External Styling Example</h3>
+    </main>
+    
+</body>
+</html>
