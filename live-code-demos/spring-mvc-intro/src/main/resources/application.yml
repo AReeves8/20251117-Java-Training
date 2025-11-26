@@ -1,0 +1,10 @@
+
+# ensure VS Code terminal has pretty colors when running spring apps
+spring:
+  output:
+    ansi:
+      enabled: ALWAYS
+
+# changes the port that Tomcat will start up on
+server:
+    port: 8282
